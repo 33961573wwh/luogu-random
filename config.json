@@ -1,0 +1,14 @@
+{
+  "editorHtml": "assets/editor.html",
+  "extensions": [
+    "assets/ext-luogu.mext"
+  ],
+  "chrome": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+  "outDir": "out",
+  "paper": {
+    "title": "洛谷题面模拟训练卷",
+    "subtitle": "入门组 · 四题模拟",
+    "header": "NO1",
+    "source": "题面来源：洛谷在线 P 题库（www.luogu.com.cn），题目版权归原作者所有"
+  }
+}
