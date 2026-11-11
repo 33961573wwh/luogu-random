@@ -291,7 +291,8 @@ function status() {
     levels: D.LEVELS,
     luoguPool: { ...luoguPool },
     mode: { statementCache: false, localProblemData: false, pool: 'luogu-online-P',
-      note: '题号、难度、题面全部实时取自洛谷在线 P 题库（type=P）；项目内没有任何本地题单或题面/难度缓存。支持整卷统一难度与逐题难度，每题独立起页。' },
+      difficultyDefault: 'per-problem',
+      note: '题号、难度、题面全部实时取自洛谷在线 P 题库（type=P）；项目内没有任何本地题单或题面/难度缓存。控制台默认按逐题难度设置，每题独立起页。' },
     server: { base: BASE, node: process.version, pid: process.pid }
   };
 }
